@@ -60,7 +60,7 @@ variables:
   # --- Plain (non-secret) variables -----------------------------------------
   # Exact name of the file under Pipelines > Library > Secure files.
   - name: sshSecureFileName
-    value: 'epicbook-aws-key'
+    value: 'epicbook-azure-key'
   - name: pythonVersion
     value: '3.12'
   # Pinned to one major release so all stages run an identical Ansible.
