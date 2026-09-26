@@ -1,5 +1,4 @@
 -- Use JAWS_DB
-USE bookstore;
 
 /**
 on your local machine, use the following:
