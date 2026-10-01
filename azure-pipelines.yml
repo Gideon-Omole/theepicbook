@@ -65,7 +65,7 @@ variables:
     value: '3.12'
   # Pinned to one major release so all stages run an identical Ansible.
   - name: ansiblePipSpec
-    value: 'ansible-drill-nonexistent-pkg-xyz>=10,<11'
+    value: 'ansible>=10,<11'
   - name: inventoryPath
     value: 'ansible/inventory/hosts.ini'
   - name: playbookPath
